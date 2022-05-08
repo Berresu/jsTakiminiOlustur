@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Inline+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/marvel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 50%;
+    opacity: 0.5;
+    color: #fff;
+    font-size: x-large;
+}
